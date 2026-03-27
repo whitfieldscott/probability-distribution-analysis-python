@@ -1,43 +1,103 @@
-<!--hide-->
-# Probability distribution in Python - Step by step guide
-<!--endhide-->
+# Probability Distribution Analysis (Python)
 
-- Complete the problems using Python.
+## 📌 Project Overview
 
-<onlyfor saas="false" withBanner="false">
-  
-## 🌱 How to start this project.
+This project explores probability distributions using Python, focusing on modeling and analyzing real-world scenarios through statistical methods. The goal is to understand how distributions describe randomness and uncertainty in data.
 
-Follow the instructions below:
+---
 
-1. Create a new repository by forking the [Git project](https://github.com/4GeeksAcademy/probability-distribution-exercises-project-with-python) or [by clicking here](https://github.com/4GeeksAcademy/probability-distribution-exercises-project-with-python/fork).
-2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
-3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
+## 🎯 Problem Context
 
+Probability distributions are fundamental in data analysis, helping to model uncertainty and predict outcomes.
 
-</onlyfor>
+This project demonstrates how to:
 
-## 📝 Instructions
+* Model discrete probability distributions
+* Calculate probabilities using statistical functions
+* Interpret results in a practical context
 
+---
 
-1. Once you start working on the project, you will see a `./notebook/problems.ipynb` file containing a list of exercises.
+## 🧠 Solution Approach
 
-2. Before starting, make sure to select the **appropriate Kernel**.
+Statistical methods and Python libraries were used to analyze probability distributions.
 
-    - When you open the notebook, a message will appear at the top indicating **"Select Kernel"**.
-    - Click on **"Select Kernel"** (as shown in the image).
+### Workflow:
 
-![image-kernel](https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/assets/image-kernel.png?raw=true)
+* Define the probability scenario
+* Apply distribution models (e.g., Binomial)
+* Compute probabilities (PMF, CDF)
+* Visualize distribution behavior
+* Interpret outcomes
 
-3. A list with available options will be displayed. Select **"Python Environments"** and choose the Python version you want to use.
+---
 
-    - Make sure to select the version specified in the `devcontainer.json` file, as this is the recommended one for the project.
+## 📊 Example Analysis
 
-![image-devcontainer](https://github.com/4GeeksAcademy/probability-exercises-project-in-python/blob/main/assets/devcontainer-image.png?raw=true)
+An example scenario includes modeling events such as:
 
-> Note: We also incorporated a `./notebook/solutions.ipynb` file that we strongly suggest you only use if you are stuck for more than 30 min or if you have already finished and want to compare it with your approach.
+* Probability of a certain number of successes in repeated trials
+* Understanding distribution shape and spread
+* Evaluating likelihood of different outcomes
 
-## 🚛 How to deliver this project
+---
 
-Once you have finished solving the exercises, be sure to commit your changes, `push` to your repository and go to 4Geeks.com to upload the repository link.
+## ⚙️ Technologies Used
 
+* Python
+* NumPy
+* SciPy
+* Matplotlib
+
+---
+
+## 📈 Key Insights
+
+* Probability distributions provide structured ways to model uncertainty
+* Distribution shape helps explain expected outcomes and variability
+* Statistical tools allow accurate probability calculations without manual formulas
+
+---
+
+## 💡 Business Relevance
+
+Understanding probability distributions is critical for:
+
+* Risk analysis
+* Forecasting and decision-making
+* Data science and machine learning foundations
+* Evaluating uncertainty in real-world systems
+
+---
+
+## 🚀 How to Run
+
+### Install dependencies
+
+```bash id="srygq8"
+pip install -r requirements.txt
+```
+
+### Run the notebook
+
+Open:
+
+```id="4u5y4e"
+notebook/problems.ipynb
+```
+
+---
+
+## 🔮 Future Improvements
+
+* Add more distribution types (Normal, Poisson)
+* Visualize multiple distributions together
+* Compare theoretical vs simulated results
+* Extend to Monte Carlo simulations
+
+---
+
+## 👤 Author
+
+Scott Whitfield
+Data Analyst | Machine Learning Enthusiast
